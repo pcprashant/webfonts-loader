@@ -229,6 +229,9 @@ module.exports = function (content) {
         (Buffer.from(res[format]).toString('base64'));
       }
     }
+    if (generatorOptions.html) {
+      this.emitFile(fontConfig.htmlFileName.replace('[fontname]', generatorOptions.fontName), res.html);
+    }
     var emitCodepointsOptions = fontConfig.emitCodepoints || options.emitCodepoints || null;
     if (emitCodepointsOptions) {
       var emitCodepoints = require('./emit-codepoints');
