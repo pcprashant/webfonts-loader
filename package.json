@@ -23,7 +23,7 @@
   "author": "Jérôme Brunel",
   "license": "MIT",
   "dependencies": {
-    "@vusion/webfonts-generator": "^0.6.0",
+    "@vusion/webfonts-generator": "pcprashant/webfonts-generator.git#9a6892d1cf8f68af1036f79307f08b364d4e1608",
     "github-sponsors": "^1.0.1",
     "glob": "^7.1.6",
     "hash-files": "^1.1.1",
